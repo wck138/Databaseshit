@@ -1,0 +1,8 @@
+Customer(CustomerID:int, Name:string, location:int)
+Restaurant(RestaurantID:int, Name:string, location:int)
+Courier(CourierID:int, Name:string, location:int)
+Orders(LineItemID:int, OrderID:int, Totaltime:int, CustomerID:int, DishID:int, CourierID:int, restaurantID,  United:int)
+Dish(DishID:int, Name:string, Price:int, Cuisine:string, RestaurantID:int)
+Rates(RateID:int, OrderID:int, CustomerID:int, RestaurantID:int, CourierID:int, stars:int)
+Favorites(FavoriteID:int, CustomerID:int, RestaurantID:int, CourierID:int, judge:text)
+United(CustomerID:int, RestaurantID:int, CourierID:int)
